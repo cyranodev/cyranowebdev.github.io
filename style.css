@@ -1,0 +1,71 @@
+body {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: rgb(10, 9, 3);
+  color: rgb(144, 190, 207);
+}
+
+div.wrapper {
+  background-image: url('me.png');
+  background-size: auto;
+  width: 85%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.box {
+  width: 48%;
+}
+
+.box.left {
+  float: left;
+  margin-top: 15%;
+}
+
+.box.left a {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.box.right {
+  float: right;
+}
+
+strong {
+  font-weight: 900;
+}
+
+a, a:visited {
+  color: rgb(0, 194, 209);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25em;
+  font-style: italic;
+}
+
+p, li {
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+} 
+
+h1 {
+  font-family: "Montserrat Subrayada", "Arial Black", sans-serif;
+  font-weight: 700;
+  margin: 30px 0 50px 18px;
+  font-size: 2.6em;
+  color: rgb(0, 194, 209);
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin: 0 0 3px 0;
+}
+
+.light-heading {
+  font-weight: 400;
+  font-size: 0.9em;
+  margin: 0;
+}
