@@ -8,19 +8,21 @@ body {
 
 div.wrapper {
   background-image: url('me.png');
-  background-size: auto;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: 25% 50%;
   width: 85%;
   max-width: 800px;
   margin: auto;
 }
 
 .box {
-  width: 48%;
+  width: 50%;
 }
 
 .box.left {
   float: left;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 .box.left a {
@@ -29,7 +31,7 @@ div.wrapper {
 }
 
 .box.right {
-  float: right;
+  display: inline-block;
 }
 
 strong {
